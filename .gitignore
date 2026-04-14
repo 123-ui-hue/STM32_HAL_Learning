@@ -1,55 +1,77 @@
-# Prerequisites
-*.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
 
-# Linker output
-*.ilk
+# Keil MDK 编译生成文件
+*.uvguix
+*.uvoptx
+*.uvprojx.bak
+*.uvproj.bak
+*.sct
+*.lnp
+*.plg
+*.crf
+*.htm
+*.html
 *.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
+*.dep
+*.axf
+*.bin
+*.hex
+*.elf
+*.out
+*.tmp
+*.d
+*.o
+*.obj
+*.lst
+*.tra
+*.s
 *.lib
 *.a
-*.la
-*.lo
+*.ar
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Keil 工程目录
+Objects/
+Listings/
+RTE/
+__pycache__/
+*.pyc
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# STM32CubeMX 生成文件
+*.ioc
+*.mxproject
+*.cproject
+*.project
+*.launch
+.settings/
+.cproject
+.project
+.DS_Store
+Thumbs.db
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# 系统临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+*.vscode/
+.idea/
+*.user
+*.userdmp
+*.uvgui.*
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# 其他编译/调试垃圾
+*.dbg
+*.elf.bin
+*.hex.bin
+*.bin.hex
+*.lst
+*.map
+*.sym
+*.tra
+*.ini
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
+*.cache
